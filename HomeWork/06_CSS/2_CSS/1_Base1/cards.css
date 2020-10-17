@@ -1,0 +1,15 @@
+.cards {
+  display: inline-block;
+  height: 190px;
+  width: 145px;
+  background: url(cards.png);
+}
+.cards.clubs {
+    background-position: -145px -200px;
+}
+.cards.worm {
+    background-position: -1002px -599px;
+}
+.cards.tambourine{
+    background-position: -859px -1395px
+}
