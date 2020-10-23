@@ -5,49 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .navi{
+        .menu {
             width: 15em;
-            background-color: rgb(170, 162, 162);
             float: left;
+            background-color: rgb(184, 178, 178);
         }
-        .article{
-            background-color: grey;
+        .article {
+            background-color: rgb(99, 95, 95);
             margin-bottom: .2em;
         }
-        .footer {
-            background-color: grey;
+        .clear1 {
+            float: left;
+            background-color: whitesmoke;
+        }
+        .wrap {
+            color: red;
+            background-color: whitesmoke;
+        }
+        .clear2 {
             clear: both;
+        }
+        .footer {
+            height: auto;
+            background-color: rgb(99, 95, 95);
+            clear: both;
+        }
+        .img {
+            text-align: right;
+            margin-bottom: .2em;
         }
     </style>
 </head>
 <body>
-    <div>
-        <div class="navi">
-            <h3>Блок навигации</h3>
-        <ul>
-            <li>Ширина 15em</li>
-            <li>Должен присутствовать цвет фона</li>
-            <li>Располагается слева</li>
-            <li>Блок навигации наполните контентом достточным, что бы по высотет он начинал захватывать вторую статью, как показано в данном примере</li>
-        </ul>
+    <div class="wrap">
+        <div class="menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rerum quas doloremque repellendus eum laborum voluptatibus ullam molestiae expedita qui reprehenderit, totam odio voluptate voluptatum dicta asperiores dolor laudantium autem.</div>
+        <div class="article">Статья 1 <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque neque, pariatur iure quo facilis cumque, ex quis eos iusto similique optio vero nobis et nostrum aliquid. Nisi dolor tempora quasi.</div>
+        
+        <div class="article">Статья 2 <br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto harum quisquam sit 
+        dolorum quia, voluptatem adipisci deleniti repellendus, sint ut qui numquam consequuntur 
+        repellat inventore suscipit voluptas ipsam necessitatibus labore. Lorem, ipsum dolor sit amet
+         consectetur adipisicing elit. Voluptas, distinctio animi soluta tempore optio quas ex reiciendis
+          dolorem est consequatur excepturi provident temporibus aut officiis? Fugit laborum culpa unde. Veniam. 
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste vel perspiciatis tempore cumque accusamus
+           quam quaerat veniam! Debitis possimus perferendis dolor quod, labore illum amet. Fugit quos quaerat 
+           sed vitae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aliquam reprehenderit quia. 
+           Incidunt eius corporis et assumenda. Est veniam asperiores numquam amet sed, neque tempora exercitationem 
+           officiis? Fugit, laboriosam magni! <br>
+        <p class="img"><img src="icon_mail.png" alt="icon_mail"></p>
         </div>
-        <div class="article">
-            <h3>Статья 1</h3>
-        <p>Размер блока: <br>
-        Занимает всю доступную ширину <br>
-        Должен присутствовать цвет фона <br>
-        Во всех "статьях" сделайте отступ снизу от соседей равным .2em, при помощи свойста margin-bottom</p>
-        </div>
-        <div class="article">
-            <h3>Статья 2</h3>
-        <p>Размер блока: <br>
-        Занимает всю доступную ширину <br>
-        Должен присутствовать цвет фона <br>
-        Во всех "статьях" сделайте отступ снизу от соседей равным .2em, при помощи свойста margin-bottom. Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи для это картинки</p>
+        <div class="footer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis itaque neque eveniet, error nemo tenetur doloremque quos sequi! In, rerum nostrum. Ipsam doloribus distinctio molestiae harum dolore explicabo. Sit, velit.
         </div>
     </div>
-    <div class="footer">
-        <p>Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещённым внутрь контентом.</p>
-    </div>
+    
 </body>
 </html>

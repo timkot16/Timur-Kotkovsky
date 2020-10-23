@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 0;
+        }
+        .wrapper {
+            display: flex;            
+        }
+        .menu {
+            background-color: rgb(184, 178, 178);
+            max-width: 15em;
+        }
+        .article {
+            flex-direction: column;
+            display: flex;
+            margin-bottom: .2em;
+            background-color: rgb(99, 95, 95);         
+        }
+        .footer {
+            background-color: rgb(99, 95, 95);
+        }
+        .img {
+            text-align: right;
+        }
+        p {
+            margin-bottom: .2em;
+        }
+        h2 {
+            margin-top: 0em;
+            margin-bottom: .2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="wrapper">
+            <div class="menu">
+                <h2>Меню</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quo eos consectetur porro velit ex totam quos? Autem at molestias vel iste doloremque porro quos recusandae eligendi molestiae. Placeat, illo?</p>
+            </div>
+            <div>
+                <div class="article">
+                    <div class="article__title">   
+                        <h2>Статья 1</h2>
+                    </div>
+                    <div class="article__text">                    
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad accusantium, est vero adipisci ducimus eum aut beatae odio, repellendus dolorem totam recusandae laborum amet quasi saepe mollitia quae quaerat quod?</p>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article__title">   
+                        <h2>Статья 2</h2>
+                    </div>
+                    <div class="article__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi doloremque quaerat, libero laborum dolore explicabo cupiditate animi soluta facilis, nostrum, beatae ad? Atque nobis nam, distinctio voluptatem eius harum.</p>
+                     </div>
+                    <div class="article__img">
+                        <p class="img"><img src="icon_mail.png" alt="icon_mail"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__text">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, impedit! Reiciendis animi, eum, accusantium quidem repellendus aspernatur modi saepe veniam neque ipsum dicta ipsam unde nisi voluptas placeat alias repellat.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
